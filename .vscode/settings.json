@@ -1,0 +1,42 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "beautify.language": {
+        "js": {
+            "type": [
+                "javascript",
+                "json"
+            ],
+            "filename": [
+                ".jshintrc",
+                ".jsbeautify"
+            ]
+        },
+        "css": [
+            "css",
+            "scss"
+        ],
+        "html": [
+            "htm",
+            "html",
+            "php"
+        ]
+    },
+    //Emmet Configuration 
+    "emmet.includeLanguages": {
+        "php": "html",
+        "blade": "html"
+    },
+    "emmet.syntaxProfiles": {
+        "blade": "html",
+        "php": "html"
+    },
+
+    "editor.tabSize": 4,
+
+    //Font Size 
+    "editor.fontSize": 16,
+
+    // Whether the php-cs-fixer library has been installed using Composer. If true, the extension will override pharPath and assume you have added Composer to your PATH.
+    "phpformatter.composer": true
+
+}

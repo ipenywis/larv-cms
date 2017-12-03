@@ -1,0 +1,18 @@
+#side-area-main {
+    background-color: rgb(60, 183, 119);
+    height: 100%;
+    padding: 25px;
+    #side-list {
+        list-style: none;
+        color: #fff;
+        font-size: 20px;
+        font-family: Nunito, sans-serif;
+        a {
+            color: #fff;
+        }
+        a:hover {
+            color: #3097D1;
+            text-decoration: none;
+        }
+    }
+}
